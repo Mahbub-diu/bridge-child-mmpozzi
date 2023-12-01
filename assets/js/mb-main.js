@@ -42,7 +42,7 @@
                   $(this)
                     .children('.submenu')
                     .siblings('a')
-                    .addClass('submenu-indicator-minus');
+                    // .addClass('submenu-indicator-minus');
                   if (defaults.singleOpen) {
                     $(this)
                       .siblings()
@@ -52,7 +52,7 @@
                       .siblings()
                       .children('.submenu')
                       .siblings('a')
-                      .removeClass('submenu-indicator-minus');
+                    //   .removeClass('submenu-indicator-minus');
                   }
                   return false;
                 } else {
@@ -66,12 +66,12 @@
                   $(this)
                     .children('.submenu')
                     .siblings('a')
-                    .hasClass('submenu-indicator-minus')
+                    // .hasClass('submenu-indicator-minus')
                 ) {
                   $(this)
                     .children('.submenu')
                     .siblings('a')
-                    .removeClass('submenu-indicator-minus');
+                    // .removeClass('submenu-indicator-minus');
                 }
               }
               window.location.href = $(this).children('a').attr('href');

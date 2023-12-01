@@ -41,31 +41,66 @@ get_header() ; ?>
                   <li>
                      <a href="#"> atlas copco</a>
                      <ul class="submenu">
-                        <!-- <li><a href="#">Web Design </a></li>
-                        <li><a href="#">Hosting </a></li> -->
+                        
                         <li>
                            <a href="#">compressori </a>
-                           <ul class="submenu submenu-product">
-                              <li><a href="#">compressori 1 </a></li>
-                              <li><a href="#">compressori 2 </a></li>
-                              <li><a href="#">compressori 3 </a></li>
-                              <li><a href="#">compressori 4 </a></li>
+                           <ul class="submenu">
+                              <li><a href="#" class="active">compressori a </a></li>
+                              <li><a href="#">compressori b </a></li>
+                              <li><a href="#">compressori c </a></li>
+                              <li><a href="#">compressori d </a></li>
+                          
                            </ul> 
                         </li>
-                        <li><a href="#">Consulting </a></li>
+                        <li>
+                            <a href="">Essiccatori</a>
+                        </li>
+                        <li>
+                            <a href="">Galleria dell’usato</a>
+                        </li>
+                        <li>
+                            <a href="">Gemeratori d’Azot</a>
+                        </li>
+                        <li>
+                            <a href="">Pompe per Vuoto</a>
+                        </li>
+                        <li>
+                            <a href="">Utensili</a>
+                        </li>
+                        <li>
+                            <a href="">Accessori Reti Aria e Servizi</a>
+                        </li>
                      </ul>
                   </li>
               
                   <li>
                      <a href="#">aria compressa </a>
-                     <ul class="submenu">
+                     <!-- <ul class="submenu">
                         <li><a href="#">Web Design </a></li>
                         <li><a href="#">Graphics </a></li>
                         <li><a href="#">Photoshop</a></li>
                         <li><a href="#">Programming </a></li>
-                     </ul>
+                     </ul> -->
                   </li>
-                
+                  <li>
+                    <a href="#">MACCHINE UTENSILI</a>
+                  </li>
+                  <li>
+                    <a href="#">UTENSILERIA</a>
+                  </li>
+                  <li>
+                    <a href="#">tornitura ed asportazione </a>
+                  </li>
+                  <li>
+                    <a href="#">aNTINFORTUNISTICA</a>
+                  </li>
+                  <li>
+                    <a href="#">MOTORI</a>
+                  </li>
+                  <li>
+                    <a href="#">ARREDAMENTI </a>
+                  </li>
+                 
                </ul>
              
             </div>
