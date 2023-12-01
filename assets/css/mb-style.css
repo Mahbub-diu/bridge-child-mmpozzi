@@ -5,7 +5,7 @@
     background: url(../images/product-details/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+
     background-position: center center;
     padding-top: 150px;
     position: relative;
@@ -123,6 +123,123 @@
     padding: 75px 60px;
 }
 
+.product-details-main .product-details-flex {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+.product-details-main .product-details-flex .left-sidebar-main {
+    flex-basis: 25%;
+}
+
+.product-details-main .product-details-flex .center-descrption-main {
+    flex-basis: 50%;
+}
+
+.product-details-main .product-details-flex .right-sidebar-main {
+    flex-basis: 25%;
+}
 
 /* product details section ends here  */
+
+
+
+
+
+.demo-list a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.jquery-accordion-menu,
+.jquery-accordion-menu * {
+
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.jquery-accordion-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jquery-accordion-menu ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.jquery-accordion-menu ul li a {
+    width: 100%;
+
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    transition: color .2s linear, background .2s linear;
+}
+
+
+
+.jquery-accordion-menu ul li a i {
+    width: 34px;
+    float: left;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.jquery-accordion-menu ul ul.submenu,
+.jquery-accordion-menu ul ul.submenu li ul.submenu {
+    width: 100%;
+    display: none;
+    position: static;
+    padding-left: 0;
+}
+
+.jquery-accordion-menu ul ul.submenu li {
+    clear: both;
+    width: 100%;
+}
+
+.jquery-accordion-menu ul ul.submenu li a {
+    width: 100%;
+
+    font-size: 11px;
+
+    border-top: none;
+    position: relative;
+
+    transition: border .2s linear;
+}
+
+.ink {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 100%;
+    transform: scale(0);
+}
+
+.animate-ink {
+    animation: ripple .5s linear;
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+.submenu-product {
+    margin-bottom: 25px;
+}
