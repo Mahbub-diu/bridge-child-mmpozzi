@@ -132,10 +132,96 @@
 
 .product-details-main .product-details-flex .left-sidebar-main {
     flex-basis: 25%;
+
+
+}
+
+
+.product-details-main .product-details-flex .left-sidebar-main .content {
+    min-height: unset !important;
 }
 
 .product-details-main .product-details-flex .center-descrption-main {
     flex-basis: 50%;
+    position: relative;
+
+}
+
+.center-content-box {
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+.product-details-main .product-details-flex .center-descrption-main::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #cccccc;
+}
+
+.product-details-main .product-details-flex .center-descrption-main::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #cccccc;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .title-box {
+    margin-bottom: 50px;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .title-box h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a;
+    position: relative;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .title-box h2::before {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 55px;
+    content: '';
+    background: #999999;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .title-box p {
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #4f4f4f;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .description {
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .description p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 0;
+}
+
+.product-details-main .product-details-flex .center-descrption-main .related-products .related-product-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 9px;
+    row-gap: 20px;
+
 }
 
 .product-details-main .product-details-flex .right-sidebar-main {
