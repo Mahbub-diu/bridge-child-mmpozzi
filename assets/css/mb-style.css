@@ -1,0 +1,117 @@
+/* common banner start from here  */
+
+.productdetails-banner-main {
+    width: 100%;
+
+    background: url(../images/product-details/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    padding-top: 150px;
+}
+
+.productdetails-banner-main .container {
+    background-color: transparent;
+}
+
+.productdetails-banner-main .title-box {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.productdetails-banner-main .title-box h2 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-size: 92px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.productdetails-banner-main .title-box p {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common banner ends here  */
+
+/* breadcrumb section start from here  */
+
+.details-breadcrumb-main {
+    padding: 20px 60px;
+    /* background: #f4f4f4; */
+    background: #f2f2f2;
+}
+
+.details-breadcrumb-main .container {
+    background-color: transparent;
+}
+
+.details-breadcrumb-main ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.details-breadcrumb-main ul li {
+    list-style-type: none;
+    font-size: 13pt;
+    line-height: 19.25pt;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #6496f3;
+    text-transform: capitalize;
+}
+
+.details-breadcrumb-main ul li:first-child {
+    padding-left: 0;
+}
+
+.details-breadcrumb-main ul li a {
+    text-transform: capitalize;
+    font-size: 13pt;
+    line-height: 19.25pt;
+    color: #333333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.details-breadcrumb-main ul li a::after {
+    position: absolute;
+    right: -17px;
+    top: 5px;
+    content: "\f105";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+
+.details-breadcrumb-main ul li a:hover {
+    color: #6496f3;
+}
+
+/* breadcrumb section ends here  */
+
+
+/* product details section start from here  */
+
+.product-details-main {
+    padding: 75px 60px;
+}
+
+
+
+/* product details section ends here  */
