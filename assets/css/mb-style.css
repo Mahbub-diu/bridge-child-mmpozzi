@@ -2,13 +2,24 @@
 
 .productdetails-banner-main {
     width: 100%;
-
     background: url(../images/product-details/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center center;
     padding-top: 150px;
+    position: relative;
+}
+
+.productdetails-banner-main::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #030304;
+    opacity: 0.6;
 }
 
 .productdetails-banner-main .container {
