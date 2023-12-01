@@ -44,10 +44,10 @@ get_header() ; ?>
         <div id="jquery-accordion-menu" class="jquery-accordion-menu red">
           <ul id="demo-list" class="demo-list">
             <li>
-              <a href="#"> atlas copco</a>
+              <a href="javascript:void(0);"> atlas copco</a>
               <ul class="submenu">
                 <li>
-                  <a href="#">compressori </a>
+                  <a href="javascript:void(0);">compressori </a>
                   <ul class="submenu">
                     <li>
                       <a href="#" class="active">compressori a </a>
@@ -123,13 +123,82 @@ get_header() ; ?>
         <div class="related-products">
             <div class="related-product-flex">
                 <div class="single-image">
-                    <a href="#"></a>
+                    <a href="#">
+                    <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/related-product.png" alt="">
+                    </a>
+                </div>
+                <div class="single-image">
+                    <a href="#">
+                    <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/related-product.png" alt="">
+                    </a>
+                </div>
+                <div class="single-image">
+                    <a href="#">
+                    <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/related-product.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
       </div>
     </div>
-    <div class="right-sidebar-main"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, placeat laboriosam? Eum iste amet impedit ab, soluta dolore nobis illo, eos sed in aspernatur deserunt suscipit totam provident tenetur distinctio. </div>
+    <div class="right-sidebar-main"> 
+        <div class="right-sidebar-content">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/icons/pdf.png" alt="">
+                        dati tecnici 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/icons/pdf.png" alt="">
+                        catalogo
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="http://localhost/mmpozzi/wp-content/themes/bridge-child/assets/images/product-details/icons/play.png" alt="">
+                        video
+                    </a>
+                </li>
+            </ul>
+            <div class="contact-box">
+                <div class="info-bg">
+                    <h5>Richiesta info</h5>
+                    <p><a href="tel:+39 0362 903963">+39 0362 903963</a></p>
+                    <p><a href="mailto:info@mmpozzi.it">info@mmpozzi.it</a></p>
+                </div>
+                <form action="">
+                <div class="form-group">
+                    <input type="text" placeholder="Nome e Cognome">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                   <select name="" id="">
+                    <option value="" selected>Italy</option>
+                    <option value="">canada</option>
+                    <option value="">japan</option>
+                   </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="" cols="" rows="" placeholder="Commenti"></textarea>
+                </div>
+                <div class="terms">
+                    <p>Ai sensi del D.Lgs. 30 giugno 2003, n. 196 "Codice in materia di protezione dei dati personali", l’utente preso atto dell’informativa ricevuta: per il trattamento riguardante finalità connesse e/o necessarie alla soddisfazione delle richieste formulate dall'utente medesimo attraverso il Sito internet o a mezzo e-mail od altro strumento di comunicazione, per il quale il consenso è obbligatorio</p>
+                </div>
+                <div class="checks">
+                <input type="checkbox" id="" name="" value="">
+                 <label for=""> Acconsento al trattamento dei dati personali</label>
+                </div>
+            </form>
+            </div>
+          
+        </div>
+
+    </div>
   </div>
 </section>
 
