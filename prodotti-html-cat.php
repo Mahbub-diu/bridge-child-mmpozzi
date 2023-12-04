@@ -39,7 +39,7 @@ get_header() ; ?>
     </div>
   </div>
 </section>
-<section class="product-details-main">
+<section class="product-details-main product-category-page">
   <div class="product-details-flex">
     <div class="left-sidebar-main">
       <div class="content">
